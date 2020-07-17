@@ -1,13 +1,46 @@
 .main{
-    min-height: calc(100% - 64px - 331.59px);
+    min-height: calc(100vh - 64px - 331px);
 }
-.header{
-    background-image: url('../banners/banner.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* height: 100%; */
+.banner-bkg{
+    height: 30em;
+    background-size: cover !important;
+    margin-top: -70px;
+    background-repeat: no-repeat !important;
+    position: relative;
+}
+.scrolled{
+    background: linear-gradient(red,blue,green) !important;
 }
 .banner{
     width: 100%;
-    height: 30vh !important;
+    height: 40vh !important;
+}
+
+.banner-text{
+    padding-top: 5em !important;
+}
+
+
+.color-bg{
+    color: white;
+}
+  
+.custom-container{
+    width: 90%;
+    margin: auto;
+    /* background-position:; */
+}
+.footer-focus{
+    margin-top: 40px;
+}
+
+.icons{
+    margin: 10px;
+}
+.icon-container{
+    display: inline;
+    margin: 10px;
+    width: 20vh;
+    height: 20vh;
+    border-radius: 20vh;
 }
