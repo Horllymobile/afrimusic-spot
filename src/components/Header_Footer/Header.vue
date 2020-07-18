@@ -1,10 +1,10 @@
 <template>
   <div class="sticky-top">
-    <nav id="nav" class="navbar navbar-expand-sm mt-2 navbar-light bg-transparent">
+    <nav id="nav" class="navbar navbar-expand-sm navbar-light bg-dark">
       <div class="container">
-        <a class="navbar-brand text-white" href="#">afrimusic-spot</a>
+        <a class="navbar-brand text-white font-weight-bold" href="#">afrimusic-spot</a>
         <button
-          class="navbar-toggler d-lg-none"
+          class="navbar-toggler bg-light d-lg-none"
           type="button"
           data-toggle="collapse"
           data-target="#collapsibleNavId"

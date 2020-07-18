@@ -9,12 +9,8 @@ function scroll(){
   var nav = document.querySelector('nav');
   if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
     nav.classList.replace('bg-transparent', 'scrolled');
-    console.log("Black live matters");
-
   }else{
-    //var nav = document.querySelector('nav');
     nav.classList.replace('scrolled', 'bg-transparent');
-    console.log("Black live matters");
   }
 }
 

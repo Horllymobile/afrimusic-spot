@@ -1,7 +1,7 @@
 <template>
     <div class="banner-bkg" :style="{background:`url(${banner.bck})`}">
         <div class="container">
-            <h3 class="text-center text-white banner-text">{{ banner.text}}</h3>
+            <h1 class="text-center text-white banner-text">{{ banner.text}}</h1>
         </div> 
     </div>
 </template>

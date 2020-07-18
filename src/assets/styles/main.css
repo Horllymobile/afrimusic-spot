@@ -4,12 +4,13 @@
 .banner-bkg{
     height: 30em;
     background-size: cover !important;
-    margin-top: -70px;
     background-repeat: no-repeat !important;
-    position: relative;
 }
 .scrolled{
-    background: linear-gradient(red,blue,green) !important;
+    background:black;
+}
+.row-footer{
+    margin-top: 0px !important;
 }
 .banner{
     width: 100%;
@@ -30,15 +31,16 @@
     margin: auto;
     /* background-position:; */
 }
-.footer-focus{
-    margin-top: 40px;
+
+.footer{
+    background: black !important;
 }
 
 .icons{
-    margin: 10px;
+    margin: 1px;
+    font-size: 25px;
 }
 .icon-container{
-    display: inline;
     margin: 10px;
     width: 20vh;
     height: 20vh;
