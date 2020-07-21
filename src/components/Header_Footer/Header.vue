@@ -2,7 +2,7 @@
   <div class="sticky-top">
     <nav id="nav" class="navbar navbar-expand-sm navbar-light bg-dark">
       <div class="container">
-        <a class="navbar-brand text-white font-weight-bold" href="#">afrimusic-spot</a>
+        <router-link class="navbar-brand text-white font-weight-bold" to="/">afrimusic-spot</router-link>
         <button
           class="navbar-toggler bg-light d-lg-none"
           type="button"
@@ -17,9 +17,9 @@
         <div class="collapse navbar-collapse" id="collapsibleNavId">
           <ul class="navbar-nav ml-auto mt-2 mt-lg-0 font-weight-bold">
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">
+              <router-link class="nav-link text-light" to="premium">
                 Premium
-              </a>
+              </router-link>
             </li>
             <li class="nav-item">
               <a class="nav-link text-white" href="#">Help</a>

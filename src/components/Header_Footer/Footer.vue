@@ -37,11 +37,17 @@
             </div>
         </div>
     </div>
+    <hr class="bg-light">
     <div class="custom-container">
         <div class="row">
-            <div class="col-lg-3"><a href="#!">More Links</a></div>
-            <div class="col-lg-6 text-center">© 2014 Copyright by Horllymobile</div>
-            <div class="col-lg-3 text-right">Address</div>
+            <div class="col-lg-3">
+                <ul class="list-unstyled nav">
+                    <li class="nav-item"><a href="#!" class="nav-link text-secondary">More Links</a></li>
+                    <li class="nav-item"><a href="#!" class="nav-link text-secondary">More Links</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-6 text-center text-secondary">© 2014 Copyright by Horllymobile</div>
+            <div class="col-lg-3 text-right text-secondary">Address</div>
         </div>
     </div>
 </footer>

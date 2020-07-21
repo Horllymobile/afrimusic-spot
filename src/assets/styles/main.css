@@ -31,9 +31,29 @@
     margin: auto;
     /* background-position:; */
 }
+.store-body{
+    margin: 5em auto !important;
+}
+.store-box{
+    text-align: center;
+    /* text-decoration: none !important; */
+}
+.store-box:hover{
+    background: #343a40!important;
+    color:white !important;
+}
+.store-link:hover{
+    background: black !important;
+    color:white !important;
+    text-decoration: none !important;
+}
 
 .footer{
     background: black !important;
+}
+
+.premium-imgs{
+    width: 20% !important;
 }
 
 .icons{
