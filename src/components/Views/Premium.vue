@@ -5,10 +5,11 @@
       <div class="col-lg-6">
           <div class="row">
             <div class="col-lg-12 mt-2">
-              <a href="#" class="store-link text-secondary">
+              <a href="#" class="store-link text-dark">
                 <div class="card store-box">
                   <div class="card-body store-body">
-                    <h3 class="card-title">Download on Apple Play Store</h3>
+                    <i class="fa fa-download text-center" aria-hidden="true"></i>
+                    <h1 class="card-title premium-download-text">Download on Apple Play Store</h1>
                   </div>
               </div>
               </a>
@@ -18,10 +19,11 @@
       <div class="col-lg-6">
         <div class="row">
           <div class="col-lg-12 mt-2">
-              <a href="#" class="store-link text-secondary">
+              <a href="#" class="store-link text-dark">
                 <div class="card store-box">
                   <div class="card-body store-body">
-                    <h3 class="card-title">Get on Google Play Store</h3>
+                    <i class="fa fa-download text-center" aria-hidden="true"></i>
+                    <h1 class="card-title premium-download-text">Get on Google Play Store</h1>
                   </div>
                 </div>
               </a>
